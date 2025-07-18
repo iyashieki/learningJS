@@ -1,0 +1,83 @@
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchInput{
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button-wrapper{
+   margin: 10px 0px; 
+}
+
+#searchButton{
+    width: 110px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    box-shadow: 1px 3px 5px lightgrey;
+    background-color: #008B8B;
+}
+
+#clearButton{
+    width: 110px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: #DC143C;
+    color: #fff;
+    box-shadow: 1px 3px 5px lightgrey;
+}
+
+.imagelist-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.imagelist-wrapper >  .card {
+          
+    margin:20px;
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px grey;
+    box-sizing: border-box;
+    
+   
+        }
+
+/*.card{
+   margin:20px;
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px grey;
+}
+    */
+
+    .card img {
+   /* max-width: 100%;
+    height: auto;
+    display: block;
+    */
+    width: 300px;
+    height: 200px;
+    object-fit: cover;      /*or object-fit: contain if you dont want cropping*/
+    display: block; 
+    }
